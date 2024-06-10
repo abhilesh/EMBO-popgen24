@@ -14,14 +14,14 @@
 
 - For *poisson distribution*, the expectation is $E[X] = \lambda$
   - The rate parameter is related to the mutation rate, TMRCA, and genome length as $\pi = 2 \times \tau \times \mu \times M$
-  - For the effective population size, $E[TMRCA] = N$ $\Rarr$ $N = \pi / (2 \times \mu \times M)$
+  - For the effective population size, $E[TMRCA] = N$ &rArr; $N = \pi / (2 \times \mu \times M)$
 
 - Since $E[X] = \lambda$ for the poisson distribution, we can formalize the calculation of $\tau$ by $k = 2 \times \mu \times M \times \tau$, substitute for $k$ and the other terms to get the value of $\tau$
 
 Key:
 
-- $\pi$ $\rarr$ # of pairwise differences
-- $\tau$ $\rarr$ time to most recent common ancestor (TMRCA)
-- $\mu$ $\rarr$ mutation rate
-- $M$ $\rarr$ genome length
-- $N$ $\rarr$ effective population size
+- $\pi$ = # of pairwise differences
+- $\tau$ = time to most recent common ancestor (TMRCA)
+- $\mu$ = mutation rate
+- $M$ = genome length
+- $N$ = effective population size
